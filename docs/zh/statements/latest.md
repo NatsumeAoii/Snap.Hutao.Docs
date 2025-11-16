@@ -16,15 +16,16 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 已成功更新至 1.16.5 版本
+# 🎉 已成功更新至 1.17.0 版本
 
 **简体中文** | [English](/en/statements/latest.html)
 
-- **【🎉新增】** 设置界面新增触屏输入检测开关，开启后会检测触屏输入，并强制启用/禁用启动游戏-注入中的触屏输入功能 [#3186](https://github.com/DGP-Studio/Snap.Hutao/issues/3186)
-- **【🎉新增】** 合入 10 月新增国际化翻译内容
-- **【✨优化】** 实时便笺现在会显示恢复满时的时间，而不是距离恢复满的时间 [#3216](https://github.com/DGP-Studio/Snap.Hutao/issues/3216)
-- **【🔨修复】** 修复了启动游戏启用注入功能后进入千星奇遇关卡时游戏会闪退的问题 [#3194](https://github.com/DGP-Studio/Snap.Hutao/issues/3194)
-- **【🔨修复】** 修复了成就管理与养成计划使用 Embedded Yae 无法导入或报错的问题 [#3196](https://github.com/DGP-Studio/Snap.Hutao/issues/3196)
-- **【🔨修复】** 修复了我的角色界面在刷新奇偶角色后会崩溃的问题 [#3199](https://github.com/DGP-Studio/Snap.Hutao/issues/3199)
-- **【🔨修复】** 修复了深境螺旋界面在刷新奇偶角色后会崩溃的问题 [#3205](https://github.com/DGP-Studio/Snap.Hutao/issues/3205)
-- **【🔨修复】** 修复了安装游戏会提示错误的问题
+- **【✨优化】** 重置了所有设置及选项的状态
+- **【✨优化】** 更改了元数据初始化/注入配置获取的方式
+- **【✨优化】** 启动游戏注入功能现在不再要求管理员模式
+- **【✨优化】** 出于安全因素考虑，部分重要改动不在此写明
+- **【✨优化】** 删除了主页的游戏公告的时间显示 [#3234](https://github.com/DGP-Studio/Snap.Hutao/issues/3234)
+- **【🔨修复】** 修复了首次就使用管理员模式启动时 WebView2 无法创建用户资料文件夹的问题 [#3248](https://github.com/DGP-Studio/Snap.Hutao/issues/3248)
+- **【🔨修复】** 修复了更改数据文件夹时能够选择当前数据文件夹的子文件夹作为新的数据文件夹的问题 [#3255](https://github.com/DGP-Studio/Snap.Hutao/issues/3255)
+- **【🔨修复】** 修复了幻想真境剧诗页面调整星章显示不正确的问题 [#3286](https://github.com/DGP-Studio/Snap.Hutao/issues/3286)
+- **【🔨修复】** 修复了角色资料页面部分角色的技能中的超链接在点击后会导致死循环的问题 [#3322](https://github.com/DGP-Studio/Snap.Hutao/issues/3322)
