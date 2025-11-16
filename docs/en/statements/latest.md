@@ -16,15 +16,16 @@ backToTop: false
 pageInfo: false
 ---
 
-# 🎉 Successfully Updated to Version 1.16.5
+# 🎉 Successfully Updated to Version 1.17.0
 
 [简体中文](/zh/statements/latest.html) | **English**
 
-- **[🎉New]** Added a touch input detection toggle in the Settings page. When enabled, it detects touch input and forces the touch input option in game launch - injection to be enabled/disabled [#3186](https://github.com/DGP-Studio/Snap.Hutao/issues/3186)
-- **[🎉New]** Merged October's new internationalization translation content
-- **[✨Optimization]** Real-time Notes now show the absolute time when resources are fully recovered, instead of the remaining time until full [#3216](https://github.com/DGP-Studio/Snap.Hutao/issues/3216)
-- **[🔨Fix]** Fixed a crash that could occur when entering the Thousand-Star Encounter challenge after launching the game with injection enabled [#3194](https://github.com/DGP-Studio/Snap.Hutao/issues/3194)
-- **[🔨Fix]** Fixed an issue where importing via Embedded Yae in Achievement Manager and Development Plan would fail or throw errors [#3196](https://github.com/DGP-Studio/Snap.Hutao/issues/3196)
-- **[🔨Fix]** Fixed a crash on the My Characters page that could occur after refreshing the character list [#3199](https://github.com/DGP-Studio/Snap.Hutao/issues/3199)
-- **[🔨Fix]** Fixed a crash on the Spiral Abyss page that could occur after refreshing the character list [#3205](https://github.com/DGP-Studio/Snap.Hutao/issues/3205)
-- **[🔨Fix]** Fixed an issue where installing the game would display an error prompt
+- **[✨Optimization]** Reset the state of all settings and options
+- **[✨Optimization]** Changed how metadata initialization and injection configuration are retrieved
+- **[✨Optimization]** Game launch injection feature no longer requires administrator privileges
+- **[✨Optimization]** For security reasons, some important changes are not disclosed here
+- **[✨Optimization]** Removed the time display for game announcements on the homepage [#3234](https://github.com/DGP-Studio/Snap.Hutao/issues/3234)
+- **[🔨Fix]** Fixed an issue where WebView2 failed to create the user profile folder when launched as administrator for the first time [#3248](https://github.com/DGP-Studio/Snap.Hutao/issues/3248)
+- **[🔨Fix]** Fixed an issue where changing the data folder could select a subfolder of the current data folder as the new data folder [#3255](https://github.com/DGP-Studio/Snap.Hutao/issues/3255)
+- **[🔨Fix]** Fixed an issue where Sigil display on the Imaginarium Theater page was incorrect after adjustments [#3286](https://github.com/DGP-Studio/Snap.Hutao/issues/3286)
+- **[🔨Fix]** Fixed an issue where clicking hyperlinks in some characters' skill descriptions on the character profile page could cause an infinite loop [#3322](https://github.com/DGP-Studio/Snap.Hutao/issues/3322)

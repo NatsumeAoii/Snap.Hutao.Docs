@@ -11,7 +11,19 @@ banner: https://opengraph.snapgenshin.cn/generate?url=https://hut.ao/en/statemen
 
 # Update Logs
 
-## 1.16.5 <Badge text="latest" type="tip" />
+## 1.17.0 <Badge text="latest" type="tip" />
+
+- **[✨Optimization]** Reset the state of all settings and options
+- **[✨Optimization]** Changed how metadata initialization and injection configuration are retrieved
+- **[✨Optimization]** Game launch injection feature no longer requires administrator privileges
+- **[✨Optimization]** For security reasons, some important changes are not disclosed here
+- **[✨Optimization]** Removed the time display for game announcements on the homepage [#3234](https://github.com/DGP-Studio/Snap.Hutao/issues/3234)
+- **[🔨Fix]** Fixed an issue where WebView2 failed to create the user profile folder when launched as administrator for the first time [#3248](https://github.com/DGP-Studio/Snap.Hutao/issues/3248)
+- **[🔨Fix]** Fixed an issue where changing the data folder could select a subfolder of the current data folder as the new data folder [#3255](https://github.com/DGP-Studio/Snap.Hutao/issues/3255)
+- **[🔨Fix]** Fixed an issue where Sigil display on the Imaginarium Theater page was incorrect after adjustments [#3286](https://github.com/DGP-Studio/Snap.Hutao/issues/3286)
+- **[🔨Fix]** Fixed an issue where clicking hyperlinks in some characters' skill descriptions on the character profile page could cause an infinite loop [#3322](https://github.com/DGP-Studio/Snap.Hutao/issues/3322)
+
+## 1.16.5
 
 - **[🎉New]** Added a touch input detection toggle in the Settings page. When enabled, it detects touch input and forces the touch input option in game launch - injection to be enabled/disabled [#3186](https://github.com/DGP-Studio/Snap.Hutao/issues/3186)
 - **[🎉New]** Merged October's new internationalization translation content
